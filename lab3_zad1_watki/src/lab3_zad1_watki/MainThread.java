@@ -5,6 +5,7 @@ public class MainThread
 
 	public static void main(String[] args)
 	{
+		System.out.println("noobek");
 		Synchonizer synch = new Synchonizer();
 		ThreadOdd odd = new ThreadOdd(synch);
 		ThreadEven even = new ThreadEven(synch);
